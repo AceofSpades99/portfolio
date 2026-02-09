@@ -105,54 +105,75 @@
     </header>
 
     <main class="max-w-5xl mx-auto p-6">
-        <div id="main-view" class="space-y-20">
-            <section id="about" class="pt-10 flex flex-col md:flex-row items-center gap-10">
-                <img src="images/profile-photo.jpeg" alt="Photo of Ana Gonzalez"
-                    class="rounded-2xl shadow-xl w-64 h-64 object-cover border-4 border-white">
-                <div class="space-y-4">
-                    <h2 class="text-3xl font-bold text-blue-700">
-                        <span class="lang-en">About Me</span><span class="lang-es">Sobre Mí</span>
-                    </h2>
-                    <div class="lang-en text-gray-700">
-                        <span class="lang-en">
-                            <p>Ana is a second-year Computer Science student in the Honors College at Miami Dade
-                                College,
-                                Padron Campus. Her academic interests include cybersecurity, robotics, artificial
-                                intelligence, and the development of secure, socially responsible technologies. She
-                                conducts
-                                research in cybersecurity and post-quantum systems under the mentorship of Dr. Selcuk
-                                Uluagac at Florida International University and leads a sustainability-focused robotics
-                                project that connects autonomous systems with environmental education. She also supports
-                                STEM learning as a mathematics tutor and helps guide first-year Honors students as a
-                                peer
-                                mentor.
-                            </p>
-                            <p>
-                                First-generation immigrant · Tutor and peer mentor · Expanding access to research and
-                                STEM
-                                leadership for first-year students
-                            </p>
-                        </span>
-                    </div>
-                    <div class="lang-es text-gray-700">
-                        p>Ana es estudiante de segundo año de Ciencias de la Computación en el Honors College de Miami
-                            Dade College, campus Padron. Sus intereses académicos incluyen ciberseguridad, robótica,
-                            inteligencia artificial y el desarrollo de tecnologías seguras y socialmente responsables.
-                            Realiza investigación en ciberseguridad y sistemas post-cuánticos bajo la mentoría del Dr.
-                            Selcuk Uluagac en Florida International University y lidera un proyecto de robótica enfocado
-                            en sostenibilidad que conecta sistemas autónomos con educación ambiental. También apoya el
-                            aprendizaje en STEM como tutora de matemáticas y orienta a estudiantes de primer año del
-                            Honors College como mentora.
-                        </p>
-                        <p>Inmigrante de primera generación · Tutora y mentora · Promoviendo el acceso temprano a la investigación y al liderazgo en STEM
-                        </p>
-                    </div>
-                    <button onclick="showView('detailed-view')"
-                        class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition shadow-md">
-                        <span class="lang-en">View Resume</span><span class="lang-es">Ver Resume</span>
-                    </button>
-                </div>
-            </section>
+      <div
+        id="main-view"
+        class="space-y-20"
+      >
+        <section
+          id="about"
+          class="pt-10 flex flex-col md:flex-row items-center gap-10 p-8 rounded-2xl border transition-all duration-300 bg-white border-gray-100 text-gray-700 dark:bg-slate-900 dark:border-slate-800 dark:text-orange-50"
+        >
+          <img
+            src="images/profile-photo.jpeg"
+            alt="Photo of Ana Gonzalez"
+            class="rounded-2xl shadow-xl w-64 h-64 object-cover border-4 border-white"
+          />
+          <div class="space-y-4">
+            <h2 class="text-3xl font-bold text-blue-700">
+              <span class="lang-en">About Me</span
+              ><span class="lang-es">Sobre Mí</span>
+            </h2>
+            <div class="dark:text-orange-50">
+              <span class="lang-en">
+                <p>
+                  Ana is a second-year Computer Science student in the Honors
+                  College at Miami Dade College, Padron Campus. Her academic
+                  interests include cybersecurity, robotics, artificial
+                  intelligence, and the development of secure, socially
+                  responsible technologies. She conducts research in
+                  cybersecurity and post-quantum systems under the mentorship of
+                  Dr. Selcuk Uluagac at Florida International University and
+                  leads a sustainability-focused robotics project that connects
+                  autonomous systems with environmental education. She also
+                  supports STEM learning as a mathematics tutor and helps guide
+                  first-year Honors students as a peer mentor.
+                </p>
+                <p>
+                  First-generation immigrant · Tutor and peer mentor · Expanding
+                  access to research and STEM leadership for first-year students
+                </p>
+              </span>
+              <span class="lang-es">
+                <p>
+                  Ana es estudiante de segundo año de Ciencias de la Computación
+                  en el Honors College de Miami Dade College, campus Padron. Sus
+                  intereses académicos incluyen ciberseguridad, robótica,
+                  inteligencia artificial y el desarrollo de tecnologías seguras
+                  y socialmente responsables. Realiza investigación en
+                  ciberseguridad y sistemas post-cuánticos bajo la mentoría del
+                  Dr. Selcuk Uluagac en Florida International University y
+                  lidera un proyecto de robótica enfocado en sostenibilidad que
+                  conecta sistemas autónomos con educación ambiental. También
+                  apoya el aprendizaje en STEM como tutora de matemáticas y
+                  orienta a estudiantes de primer año del Honors College como
+                  mentora.
+                </p>
+                <p>
+                  Inmigrante de primera generación · Tutora y mentora ·
+                  Promoviendo el acceso temprano a la investigación y al
+                  liderazgo en STEM
+                </p>
+              </span>
+            </div>
+            <button
+              onclick="showView('detailed-view')"
+              class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition shadow-md"
+            >
+              <span class="lang-en">View Resume</span>
+              <span class="lang-es">Ver Resume</span>
+            </button>
+          </div>
+        </section>
 
         <section
           id="skills"
@@ -223,10 +244,11 @@
               <li>
                 <strong>Email:</strong>
                 <a
-                  href="mailto:..."
+                  href="mailto:agalvarez23332@gmail.com"
                   class="text-blue-600 dark:text-blue-400 ml-2"
-                  >your-email@example.com</a
                 >
+                  agalvarez23332@gmail.com
+                </a>
               </li>
             </ul>
           </div>
