@@ -369,14 +369,14 @@
               </div>
 
               <div class="mt-6">
-                <a
-                  href="#"
-                  class="inline-flex items-center justify-center px-4 py-2 rounded-lg text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 transition"
+                <button
+                  onclick="goToSection('quantum-detail')"
+                  class="inline-flex items-center justify-center px-4 py-2 rounded-lg text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 transition cursor-pointer"
                 >
-                  <span class="lang-en">Learn more</span>
+                  <span class="lang-en">Learn More</span>
                   <span class="lang-es hidden">Ver Más</span>
                   <span class="ml-2">→</span>
-                </a>
+                </button>
               </div>
             </article>
 
@@ -493,6 +493,80 @@
               </div>
             </article>
           </div>
+        </section>
+
+        <section
+          id="quantum-detail"
+          class="hidden py-10 space-y-6"
+        >
+          <button
+            onclick="goBack('quantum-detail')"
+            class="text-blue-600 font-bold hover:underline cursor-pointer lang-en"
+          >
+            ← Back to Projects
+          </button>
+          <button
+            onclick="goBack('quantum-detail')"
+            class="text-blue-600 font-bold hover:underline cursor-pointer lang-es hidden"
+          >
+            ← Regresar a Proyectos
+          </button>
+          <h3 class="text-3xl font-bold lang-en">
+            Post-Quantum Cryptography Benchmarking
+          </h3>
+          <h3 class="text-3xl font-bold lang-es hidden">
+            Benchmarking de Criptografía Post-Cuántica
+          </h3>
+          <div class="text-justify text-gray-700 dark:text-orange-50">
+            <div class="lang-en">
+              <p
+                class="first-letter:float-left first-letter:mr-2 first-letter:text-5xl first-letter:text-blue-600 first-letter:font-bold"
+              >
+                This project involved participating in the benchmarking of
+                post-quantum cryptographic algorithms and comparing them with
+                traditional schemes under structured testing conditions.
+              </p>
+              <p>
+                I supported performance evaluation by reviewing execution time
+                outputs and resource usage measurements. I also assisted in
+                organizing and documenting comparative results to support
+                structured analysis.
+              </p>
+              <p>
+                Through this work, I gained practical insight into how
+                theoretical cryptographic models translate into measurable
+                system behavior, and how implementation details influence
+                computational performance.
+              </p>
+            </div>
+            <div class="lang-es hidden">
+              <p
+                class="first-letter:float-left first-letter:mr-2 first-letter:text-5xl first-letter:text-blue-600 first-letter:font-bold"
+              >
+                Este proyecto consistió en participar en el benchmarking de
+                algoritmos criptográficos post-cuánticos y compararlos con
+                esquemas tradicionales bajo condiciones de prueba estructuradas.
+              </p>
+              <p>
+                Apoyé el proceso de evaluación revisando tiempos de ejecución y
+                mediciones de consumo de recursos. Asimismo, colaboré en la
+                organización y documentación de resultados comparativos para
+                facilitar un análisis estructurado.
+              </p>
+              <p>
+                La experiencia me permitió comprender de manera práctica cómo
+                los modelos teóricos en criptografía se reflejan en
+                comportamientos medibles dentro de un sistema, y cómo los
+                detalles de implementación influyen en el rendimiento
+                computacional.
+              </p>
+            </div>
+          </div>
+          <img
+            src="images/Ana_presentacion_cybersecurity.jpeg"
+            alt="cybersecurity presentation"
+            class="w-300 h-auto"
+          />
         </section>
 
         <section
